@@ -1,0 +1,39 @@
+CONFIG_NAME: 'attn2'
+
+DATASET_NAME: 'frame'
+DATA_DIR: '../data/frame'
+GPU_ID: 0
+WORKERS: 4
+
+
+TREE:
+    BRANCH_NUM: 2
+
+
+TRAIN:
+    FLAG: True
+    NET_G: '../output/frame/Exp_final/8/gen_train/netG_epoch_45.pth'
+    B_NET_D: True
+    BATCH_SIZE: 10 # 22
+    MAX_EPOCH: 50
+    SNAPSHOT_INTERVAL: 1
+    DISCRIMINATOR_LR: 0.0002
+    GENERATOR_LR: 0.0002
+    #
+    NET_E: '../output/frame/Exp_final/8/pre_train/text_encoder50.pth'
+    SMOOTH:
+        GAMMA1: 4.0  # 1,2,5 good 4 best  10&100bad
+        GAMMA2: 5.0
+        GAMMA3: 10.0  # 10good 1&100bad
+        LAMBDA: 5.0
+
+
+GAN:
+    DF_DIM: 8
+    GF_DIM: 16
+    Z_DIM: 100
+    R_NUM: 2
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 1
