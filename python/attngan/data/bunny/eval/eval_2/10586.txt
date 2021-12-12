@@ -1,0 +1,1 @@
+Floor.d:3974848 and Floor.i:5082 also UpperBody.d:4236214 and UpperBody.i:5183 and UpperBody.v:8191 and UpperBody.r:0-4-0 also BackRightLeg.d:4236214 and BackRightLeg.i:5088 and BackRightLeg.v:19 and BackRightLeg.r:0-4-0 also FrontLeftLeg.d:4236214 and FrontLeftLeg.i:5182 and FrontLeftLeg.v:65280 and FrontLeftLeg.r:0-4-0

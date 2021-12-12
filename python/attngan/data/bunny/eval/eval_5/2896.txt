@@ -1,0 +1,1 @@
+Floor.d:3974841 and Floor.i:917 also LeftEar.d:4236241 and LeftEar.i:9548 and LeftEar.v:12544 and LeftEar.r:0-18-0

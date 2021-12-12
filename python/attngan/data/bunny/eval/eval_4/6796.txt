@@ -1,0 +1,1 @@
+Floor.d:3974827 and Floor.i:2058 also Head.d:4236203 and Head.i:2052 and Head.v:65535 and Head.r:0-13-0 also UpperBody.d:4236203 and UpperBody.i:6881 and UpperBody.v:65535 and UpperBody.r:0-13-0
